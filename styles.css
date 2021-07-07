@@ -1,0 +1,37 @@
+<style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body { height: 800px; background-color: blueviolet;}
+
+.main { 
+  display: flex; 
+  height: 100%;
+  width: 100%;
+  justify-content: center; 
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  min-width: 1000px; 
+  min-height: 500px;
+  border-radius: 20px;
+  border-width: 2px;
+  border: solid;
+  background-color: white;
+  grid-template-columns: repeat(2, 50%);
+  gap: 0%;
+}
+
+.grid{
+  border-radius: 20px;
+  /* border-width: 2pt;
+  border: solid;
+  border-color: black;
+  border-top: ; */
+}
+
+.obj1{}
+.obj2{}
+</style>
