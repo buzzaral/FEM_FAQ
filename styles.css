@@ -18,20 +18,21 @@ body { height: 800px; background-color: blueviolet;}
   min-height: 500px;
   border-radius: 20px;
   border-width: 2px;
-  border: solid;
   background-color: white;
   grid-template-columns: repeat(2, 50%);
   gap: 0%;
 }
 
-.grid{
-  border-radius: 20px;
-  /* border-width: 2pt;
-  border: solid;
-  border-color: black;
-  border-top: ; */
-}
+.grid {}
 
-.obj1{}
+.photo-housing {}
+.photo {}
+
+.obj1{
+  position: relative;
+  padding: 50px 0;
+  right: 50px;
+  overflow: hidden;
+}
 .obj2{}
 </style>
